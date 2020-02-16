@@ -1,0 +1,140 @@
+body {
+  background-color: #F5CDAA;
+  color: white;
+}
+
+.smaller-letters {
+  font-size: 0.8rem;
+}
+
+.top {
+  width: auto;
+  height: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+  .top {
+    height: 40rem;
+  }
+  .img-middle {
+    display: none;
+  }
+
+  .text-middle-heading {
+    margin-top: 25%;
+  }
+
+  .text-middle {
+    padding: 20% auto;
+    margin: -5% auto;
+
+  }
+}
+
+.title {
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  position: relative;
+  color: white;
+  border: 5px solid #f1f1f1;
+  background-color: rgb(0,0,0);
+  background-color: rgba(207,180,149, 0.5);
+  top: 4rem;
+  padding: 30px;
+  z-index: 2;
+}
+
+.centered-title {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #343A40;
+  border-radius: 0;
+  z-index: 10;
+}
+
+.navbar-brand {
+  font-family: 'Patua One', cursive;
+  color: white;
+}
+
+.rock-climbing {
+  padding: 0;
+  margin: 0;
+  transform: translateY(-130px);
+  filter: blur(10px)brightness(70%);
+  z-index: -2;
+  display: block;
+  background-size: cover;
+  max-width:100%;
+  max-height:100%;
+}
+
+.middle {
+  background-color: #F5CDAA;
+  height: 40rem;
+  width: auto;
+  margin-top: -20rem;
+  z-index: 3;
+  position: relative;
+}
+
+.img-middle {
+  height: 40%;
+  width: 40%;
+  border: 3px solid #f1f1f1;
+  margin: 10% auto 7%;
+  filter: brightness(80%);
+}
+
+.text-middle-heading {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-left: 3rem;
+  color: #5d5b6a;
+}
+
+.Hline {
+  width: 30%;
+  border: 1px solid #5d5b6a;
+  margin-left: 0;
+}
+
+.text-middle {
+  color: #758184;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2rem;
+}
+
+.col-middle {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.col-middle {
+  max-width: 60%;
+}
+
+.footer {
+  height: 20rem;
+  width: auto;
+  background-color: #758184;
+}
+
+.text-footer {
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+  top: 4rem;
+  padding: 30px;
+}
+
+.fas {
+  margin-top: 2rem;
+  color: white;
+}
+
+.fas:hover {
+  color: #5d5b6a;
+}
