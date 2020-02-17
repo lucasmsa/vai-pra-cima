@@ -12,7 +12,7 @@ body {
   height: 80%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 992px) {
   .top {
     height: 40rem;
   }
@@ -75,7 +75,7 @@ body {
   background-color: #F5CDAA;
   height: 40rem;
   width: auto;
-  margin-top: -20rem;
+  margin-top: -10rem;
   z-index: 3;
   position: relative;
 }
